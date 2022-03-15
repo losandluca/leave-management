@@ -1,4 +1,6 @@
-﻿@{
+﻿@using leave_management.Data
+
+@{
     if (ViewData.TryGetValue("ParentLayout", out var parentLayout))
     {
         Layout = (string)parentLayout;
